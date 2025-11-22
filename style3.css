@@ -1,0 +1,221 @@
+body,html{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+#box1{
+    border:1px,solid black;
+    background :rgba(1, 1, 197, 0.858);
+    color:white;
+    height:80px;
+    position:relative;
+}
+#h2a{
+    transform:translateX(30px);
+    font-size: 30px;
+}
+#nav1{
+    font-size: 20px;
+    display:flex;
+    gap:30px;
+    justify-content: end;
+}
+.link1{
+    color:white;
+    text-decoration: none;
+    transform:translateY(-50px) translateX(-30px);
+}
+.H1{
+    font-size: 80px;;
+}
+#img1{
+    width:200px;
+    border-radius: 50%;
+    transform: translateX(1200px) translateY(-350px);
+}
+#h1a{
+    transform:translateX(20px)
+}
+#h1b{
+    transform:translateY(-60px) translateX(20px);
+    animation:Fullstack;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes Fullstack{
+    0%{
+        color:purple;
+    }
+    25%{
+        color:lime;
+    }
+    50%{
+        color:cyan;
+    }
+    75%{
+        color:yellow;
+    }
+    100%{
+        color:red;
+    }
+}
+#p1{
+    transform: translateY(-90px) translateX(20px);
+}
+#About{
+    transform:translateY(-350px);
+}
+#about{
+    transform:translateX(20px);
+    font-size: 30px;
+}
+#p2{
+    transform:translateX(20px);
+}
+
+#Skills{
+    transform:translateY(-290px);
+}
+#myskills{
+    display:flex;
+    gap:50px;
+    justify-content:center;
+}
+#skill{
+    font-size: 30px;
+    transform:translateX(20px);
+}
+.p3{
+   font-size: 20px;
+   border:2px,solid black;
+   border-radius: 10%;
+   width:450px;
+   height:120px;
+   color:White;
+   background:rgba(1, 1, 197, 0.858);
+   transition: 1s all;
+      
+}
+.p3:hover{
+    box-shadow: 0px 0px 20px rgb(255, 21, 60);
+    transform:scale(0.9);
+}
+.p4{
+    font-size: 20px;
+    transform:translateX(200px) translateY(-20px);
+}
+.h2b{
+    transform:translateX(170px);
+}  
+#Projects{
+    transform:translateY(-280px)
+}
+#project{
+    font-size: 30px;
+    transform:translateX(20px);
+}
+#img2{
+    width:600px;
+    height:300px;
+    border:2px,solid black;
+    border-radius:10%;
+    transform:translateX(500px);
+    background-size:cover;
+    animation: image2 20s infinite;
+}
+@keyframes image2 {
+    0%{
+        background-image: url("pj3.png");
+    }
+    50%{
+        background-image: url("pj4.png");
+    }
+    100%{
+        background-image: url("pj3.png");
+    }
+}
+#img3{
+    width:600px;
+    height:300px;
+    border:2px, solid black;
+    border-radius:10%;
+    transform:translateX(500px);
+    background-size:cover;
+    animation: image3 20s infinite;
+}
+@keyframes image3 {
+    0%{
+        background-image: url("pj2.png");
+    }
+    50%{
+        background-image: url("pj1.png");
+    }
+    100%{
+        background-image: url("pj2.png");
+    }
+}
+#img3{
+    transform:translateY(50px) translateX(500px);
+}
+#Contact{
+    transform:translateY(-120px);
+}
+#details{
+    font-size: 30px;
+    transform:translateX(20px);
+}
+#detailbox{
+    border:1px,solid black;
+    height:450px;
+    width:400px;
+    border-radius:5%;
+    transform:translateX(600px);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+.p5{
+    font-size: 20px;
+    transform:translateX(20px) translateY(20px);
+}
+.inputbox{
+    width:340px;
+    height:25px;
+    border:2px,solid rgb(10, 179, 179);
+    transform:translateX(20px)
+}
+#messagebox{
+    border:2px,solid rgb(10, 179, 179);
+    transform:translateX(20px)
+}
+#submit{
+    transform:translateX(20px) translateY(20px);
+    color:white;
+    background:blue;
+    font-size: 20px;
+    width:350px;
+    height:40px;
+    border-radius:10%
+}
+#p6{
+    border:1px,solid black;
+    height:50px;
+    font-size:20px;
+    text-align: center;
+    background:Blue;
+    color:white;
+}
+#backbutton{
+    border:2px,solid black;
+    color:White;
+    background:Blue;
+    text-decoration: none;
+    width:150px;
+    height:50px;
+    border-radius:20%;
+    position:fixed;
+    bottom:100px;
+    left:1300px;
+}
+#p7{
+    font-size: 20px;
+    transform:translateX(20px) translateY(-10px);
+}
